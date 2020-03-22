@@ -14,7 +14,7 @@ font-family: 'ZCOOL XiaoWei', serif; */
     justify-content: space-evenly;
 }
 #guestList {
-    justify-content: space-around;
+    text-align: left;
 }
 .row {
     text-align: center;
