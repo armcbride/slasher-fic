@@ -1,0 +1,26 @@
+/* font-family: 'Special Elite', cursive;
+font-family: 'Sigmar One', cursive;
+font-family: 'Spectral', serif;
+font-family: 'ZCOOL XiaoWei', serif; */
+
+.jumbotron-fluid {
+    font-family: 'Special Elite', cursive;
+    text-shadow: 2px 2px black;
+    background-image: url(./images/h.h.-holmes-house.jpg);
+    color:white;
+}
+.container,
+.card-body {
+    justify-content: space-evenly;
+}
+#guestList {
+    justify-content: space-around;
+}
+.row {
+    text-align: center;
+    flex-direction: row;
+}
+.btn-group {
+    padding: 3px;
+    margin: 3px;
+}
