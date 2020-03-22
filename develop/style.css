@@ -4,7 +4,7 @@ font-family: 'Spectral', serif;
 font-family: 'ZCOOL XiaoWei', serif; */
 
 .jumbotron-fluid {
-    font-family: 'Special Elite', cursive;
+    font-family: 'Sigmar One', cursive;
     text-shadow: 2px 2px black;
     background-image: url(./images/h.h.-holmes-house.jpg);
     color:white;
@@ -12,6 +12,9 @@ font-family: 'ZCOOL XiaoWei', serif; */
 .container,
 .card-body {
     justify-content: space-evenly;
+}
+.front-desk {
+    font-family: 'Special Elite', cursive;
 }
 #guestList {
     text-align: left;
