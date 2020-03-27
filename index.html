@@ -25,26 +25,23 @@
                   
                   <p class="card-text">You'll find our guest list here, where everything is spelled out! Including your room number! Any questions please ask your concierge. </p>
                   <p>
-                    <a class="btn btn-secondary" data-toggle="collapse" href="#multiCollapseExample1" role="button" aria-expanded="false" aria-controls="multiCollapseExample1">Attendees</a>
+                    <a class="btn btn-secondary" data-toggle="collapse" href="#first" role="button" aria-expanded="false" aria-controls="first">Attendees</a>
                     
-                    <button class="btn btn-secondary" type="button" data-toggle="collapse" data-target="#multiCollapseExample2" aria-expanded="false" aria-controls="multiCollapseExample2">Floor Plan</button>
+                    <button class="btn btn-secondary" type="button" data-toggle="collapse" data-target="#second" aria-expanded="false" aria-controls="second">Floor Plan</button>
                     
-                    <button class="btn btn-secondary" type="button" data-toggle="collapse" data-target="#multiCollapseExample3" aria-expanded="false" aria-controls="multiCollapseExample3">Festivities</button>
+                    <button class="btn btn-secondary" type="button" data-toggle="collapse" data-target="#third" aria-expanded="false" aria-controls="third">Festivities</button>
                   </p>
-                  <div class ="row">
-                    <div class="col-4"></div>
-                  <div class="col-4">
-                    <div class="collapse multi-collapse" id="multiCollapseExample2">
-                      <div class="card card-body">
-                          <img src="develop/images/holmes-mansion.jpg" class="img-fluid" alt="Responsive image">
-                      </div>
-                    </div>
-                  </div>
+                  
                 </div>
                   <div class="row">
                     <div class="col-4">
-                      <div class="collapse multi-collapse" id="multiCollapseExample1">
+                      <div class="collapse multi-collapse" id="first">
                         <div class="card card-body" id = "guestList">
+                          <div class= "card-header">
+                            <h2 class="mb-0">
+                              Guest List
+                            </h2>
+                          </div>
                           <div class="accordion" id="characterAccordion">
                             <div class="card">
                               <div class="card-header" id="headingOne">
@@ -264,24 +261,47 @@
                               </div>
                               <!-- end of accordion div -->
                           </div>
-                          <ul>
-                              <li>Danielle Burnham</li>
-                              <li>Kenneth O'Leary</li>
-                              <li>George Clark</li>
-                              <li>Ida Clemmens</li>
-                              <li>Jackie Alderman</li>
-                              <li>John Goodrich</li>
-                              <li>Lou Malnati</li>
-                        </ul>
                         </div>
                       </div>
                     </div>
-                    <div class="col-4"> 
-
+                  </div>
+                    <!-- empty div for spacing -->
+                    <div class="col-4">
+                      <div class="collapse multi-collapse" id="second">
+                        <div class="card card-body">
+                          <div class= "card-header">
+                            <h2 class="mb-0">
+                              Floor Plan
+                            </h2>
+                          </div>
+                          <div class= "card" style= "width: 20rem; padding: 3rem;">
+                            <img src="develop/images/holmes-mansion.jpg" class="card-img-top" alt="Responsive image">
+                            <div class= "card-body">
+                              <h5 class= "card-title">Overview-</h5>
+                              <p class="card-text">An outside view and breakdown of all three floors.</p>
+                            </div>
+                          </div>
+                          <div class= "card" style= "width: 20rem; padding: 3rem;">
+                            <img src="develop/images/holmes-mansion-second-floor-layout.jpg" class="card-img-top" alt="Responsive image">
+                            <div class= "card-body">
+                              <h5 class= "card-title">Second Floor-</h5>
+                              <p class="card-text">Top down look at the second floor apartments.</p>
+                            </div>
+                          </div>
+                          <div class= "card" style= "width: 20rem; padding: 3rem;">
+                            <img src="develop/images/h.h.-holmes-house.jpg" class="card-img-top" alt="Responsive image">
+                            <div class= "card-body">
+                              <h5 class= "card-title">Street View-</h5>
+                              <p class="card-text">A look at the building from across the street.</p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
                     </div>
 
+                    <!-- festivities div -->
                     <div class="col-4">
-                        <div class="collapse multi-collapse" id="multiCollapseExample3">
+                        <div class="collapse multi-collapse" id="third">
                           <div class="card card-body">
                               
                             The plans for Every night this weeK :
