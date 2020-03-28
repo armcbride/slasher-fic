@@ -7,6 +7,7 @@
     <link href="https://fonts.googleapis.com/css?family=Sigmar+One|Special+Elite|Spectral|ZCOOL+XiaoWei&display=swap" rel="stylesheet">
     <link rel= "stylesheet" href="develop/style.css"/>
     <title>You're Invited</title>
+    
 </head>
 <body>
     <div class = "container-fluid">
@@ -20,7 +21,9 @@
             <div class="front-desk card shadow p-3 mb-5 bg-white rounded">
                 <div class="d-flex justify-content-center"></div>
                 <div class="card-body rounded-pill">
-                  <h5 class="card-title">Front Desk: Check in</h5>
+                  <div class="row">
+                    <div class="col-4">
+                    <h5 class="card-title">Front Desk: Check in</h5>
                   <h6 class="card-subtitle mb-2 text-muted">Dr. Henry Howard Holmes is so very excited to have you here to stay at his Hotel for the most exciting World's Fair, occuring in just three days time.</h6>
                   
                   <p class="card-text">You'll find our guest list here, where everything is spelled out! Including your room number! Any questions please ask your concierge. </p>
@@ -30,8 +33,16 @@
                     <button class="btn btn-secondary" type="button" data-toggle="collapse" data-target="#second" aria-expanded="false" aria-controls="second">Floor Plan</button>
                     
                     <button class="btn btn-secondary" type="button" data-toggle="collapse" data-target="#third" aria-expanded="false" aria-controls="third">Festivities</button>
-                  </p>
-                  
+                  </p></div>
+                  <div class="col-3">
+                    <div class="card">
+                      <div class="card-header">Dice</div>
+                      <div class="card-body">
+                        <a href="http://rpg.greenimp.co.uk/dice-roller/" class="btn btn-dark">To Dice Roller</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
                 </div>
                   <div class="row">
                     <div class="col-4">
@@ -407,5 +418,6 @@
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/rpg-dice-roller@VERSION/lib/umd/bundle.min.js"></script>
 </body>
 </html>
