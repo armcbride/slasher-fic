@@ -19,12 +19,12 @@
           </div>
         <div class = "container-fluid row">
             <div class="front-desk card shadow p-3 mb-5 bg-white rounded">
-                <div class="d-flex justify-content-center"></div>
                 <div class="card-body rounded-pill">
                   <div class="row">
                     <div class="col-4">
-                    <h5 class="card-title">Front Desk: Check in</h5>
-                  <h6 class="card-subtitle mb-2 text-muted">Dr. Henry Howard Holmes is so very excited to have you here to stay at his Hotel for the most exciting World's Fair, occuring in just three days time.</h6>
+                      <div class="card shadow p-1 mb-5 bg-white rounded">
+                    <h5 class="card-header card-title">Front Desk: Check in</h5>
+                  <h6 class="card-body mb-2 text-muted">Dr. Henry Howard Holmes is so very excited to have you here to stay at his Hotel for the most exciting World's Fair, occuring in just three days time.</h6>
                   
                   <p class="card-text">You'll find our guest list here, where everything is spelled out! Including your room number! Any questions please ask your concierge. </p>
                   <p>
@@ -34,11 +34,22 @@
                     
                     <button class="btn btn-secondary" type="button" data-toggle="collapse" data-target="#third" aria-expanded="false" aria-controls="third">Festivities</button>
                   </p></div>
-                  <div class="col-3">
-                    <div class="card">
-                      <div class="card-header">Dice</div>
+                </div>
+                  <div class="col-4">
+                    <div class="card shadow bg-white rounded">
+                      <div class="card-header">Useful</div>
                       <div class="card-body">
-                        <a href="http://rpg.greenimp.co.uk/dice-roller/" class="btn btn-dark">To Dice Roller</a>
+                        <a href="http://rpg.greenimp.co.uk/dice-roller/" target= "blank" class="btn btn-dark">To Dice Roller</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-4">
+                    <div class="card" style="width: 18rem;">
+                      <img src="develop/images/375px-Dr._Henry_Howard_Holmes_(Herman_Webster_Mudgett).jpg" class="card-img-top" alt="Dr. Henry Holmes">
+                      <div class="card-body">
+                        <h5 class="card-title">Dr. Henry Holmes</h5>
+                        <p class="card-text">The mysterious and slightly intimidating visage of the propriertor of the World's Fair Hotel.</p>
+                       
                       </div>
                     </div>
                   </div>
@@ -47,7 +58,7 @@
                   <div class="row">
                     <div class="col-4">
                       <div class="collapse multi-collapse" id="first">
-                        <div class="card card-body" id = "guestList">
+                        <div class="card shadow p-1 mb-5 bg-white rounded card-body" id = "guestList">
                           <div class= "card-header">
                             <h2 class="mb-0 text-center">
                               Guest List
