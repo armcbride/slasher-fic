@@ -11,5 +11,7 @@ A game to play at a party, or remotely. Gruesome and horrifying. Enjoy a rivetin
 
 - <a href="https://armcbride.github.io/portfolio/about.html" target ="blank"> armcbride</a>
 
+# Live Link
+- <a href="https://armcbride.github.io/slasher-fic/index.html" target= "blank"> World's Fair Hotel </a>
 
 
