@@ -28,7 +28,8 @@
   <p><img align="left" src= "https://img.shields.io/badge/License-MIT-blue"></p><br>
   <hr>
   <div id="screen"><h3>Screenshots</h3></div>
-  <p></p>
+  <p>View live link: <a href="https://armcbride.github.io/slasher-fic/" target= "_blank">visit</a>.
+  <img src ="assets/images/home-view.PNG"><img src ="assets/images/body-view.PNG"><img src ="assets/images/guest-view.PNG"></p>
   <hr>
   <div id="contr"><h3>Contributors</h3> </div>
   <p><a href="armcbride.github.io">armcbride</a></p> 
